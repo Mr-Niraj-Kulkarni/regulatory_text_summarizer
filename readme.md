@@ -27,7 +27,7 @@ This project processes a regulations document, extracts sections, generates summ
 
 4. Run the extract_requirements.py script using the command:
    ```bash
-   python script.py --input_file regulations.txt --prompt_template prompt_template.txt
+   python extract_requirements.py --input_file regulations.txt --prompt_template prompt_template.txt
 
 5. Check the output in the generated `extracted_requirements.csv` file 
 
