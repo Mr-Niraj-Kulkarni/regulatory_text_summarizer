@@ -118,26 +118,43 @@ class MockLLMWithLangChain:
         # Load the SpaCy model for NER
         self.nlp =spacy.load('en_core_web_sm')
 
+    import re
+
     def extract_section_text(self, input_text):
+        """
+        Extracts the last section of text between "Section_text:" and 
+        "Key_Business_Requirements:" from the input text.
+
+        Args:
+            input_text (str): The text to be processed.
+
+        Returns:
+            str: The extracted section text, stripped of leading/trailing whitespace.
+            None: If no match is found or an error occurs.
+        """
         try:
-            # Regular expression to match the last "Section_text:" and the following "Key_Business_Requirements:"
+            # Define a regular expression to match the desired section of text.
+            # `re.DOTALL` allows the '.' to match newline characters.
             pattern = r"Section_text:\s*(.*?)\s*Key_Business_Requirements:"
-            matches = re.findall(pattern, input_text, re.DOTALL)  # re.DOTALL allows '.' to match newline characters
-            
+            matches = re.findall(pattern, input_text, re.DOTALL)
+
             if matches:
-                return matches[-1].strip()  # Return the last matched section, stripping leading/trailing whitespace
+                # Return the last matched section after stripping leading/trailing whitespace.
+                return matches[-1].strip()
             else:
+                # Raise an exception if no matches are found.
                 raise ValueError("No match found for the given pattern.")
-            
+        
         except re.error as e:
-            # Handle any regex-related exceptions
+            # Handle exceptions related to regular expressions.
             print(f"Regex error: {e}")
             return None
         
         except Exception as e:
-            # Handle any other exceptions
+            # Handle any other exceptions that might occur.
             print(f"An error occurred: {e}")
-            return None 
+            return None
+ 
 
     @staticmethod
     def load_and_format_prompt(text_section: str, prompt_template_path: str) -> str:
@@ -178,10 +195,13 @@ class MockLLMWithLangChain:
         Returns:
             str: The summarized output.
         """
+        # For demonstration purposes, the section_text is extracted again 
+        # from the actual prompt.
         mock_prompt = self.extract_section_text(prompt)
-        print(mock_prompt)
- 
+
+        # Process the extracted text using the NLP pipeline.
         sentences = self.nlp(mock_prompt)
+
 
         # Tokenize into sentences
         sentences = [sent.text for sent in sentences.sents]
@@ -252,7 +272,7 @@ def main(file_path: str, prompt_template_path: str):
                 "section_number": section_count,
                 "original_text": section_text,
                 "section_heading": heading,
-                "summarized_requirements": summarized_requirements
+                "summarized_requirements": summarized_requirements.strip()
             })
 
             section_count += 1
