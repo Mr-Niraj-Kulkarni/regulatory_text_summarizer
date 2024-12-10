@@ -1,0 +1,19 @@
+file_path,file_title,section_number,original_text,section_heading,summarized_requirements
+regulations.txt,Financial Services Data Protection Act,1,"The purpose of this Act is to establish comprehensive data protection standards for financial institutions operating within the jurisdiction.
+This Act applies to all financial institutions, including banks, credit unions, insurance companies, and investment firms that collect, process, store, or transmit personal financial information of customers.",Purpose and Scope,"The purpose of this Act is to establish comprehensive data protection standards for financial institutions operating within the jurisdiction.
+"
+regulations.txt,Financial Services Data Protection Act,2,"Financial institutions must obtain explicit consent from customers before collecting any personal financial information. This consent must be documented and easily revocable by the customer at any time.
+The collection of personal financial information shall be limited to what is necessary for the provision of financial services or as required by law.",Data Collection and Consent,Financial institutions must obtain explicit consent from customers before collecting any personal financial information.
+regulations.txt,Financial Services Data Protection Act,3,"All financial institutions must implement robust security measures to protect personal financial information from unauthorized access, disclosure, alteration, or destruction.
+Financial institutions shall conduct annual security audits and vulnerability assessments of their data protection systems and processes.
+In the event of a data breach, financial institutions must notify affected customers and the regulatory authority within 72 hours of discovery.",Data Security Measures,"Financial institutions shall conduct annual security audits and vulnerability assessments of their data protection systems and processes.
+"
+regulations.txt,Financial Services Data Protection Act,4,"Personal financial information shall be retained only for as long as necessary to fulfill the purpose for which it was collected or as required by law.
+Financial institutions must implement secure data disposal methods to ensure that personal financial information is permanently and irretrievably deleted when no longer needed.",Data Retention and Disposal,"Personal financial information shall be retained only for as long as necessary to fulfill the purpose for which it was collected or as required by law.
+"
+regulations.txt,Financial Services Data Protection Act,5,"Customers have the right to access their personal financial information held by financial institutions and request corrections to any inaccuracies.
+Financial institutions must provide customers with a clear and accessible process for exercising their rights under this Act.",Customer Rights and Access,"Customers have the right to access their personal financial information held by financial institutions and request corrections to any inaccuracies.
+"
+regulations.txt,Financial Services Data Protection Act,6,"Financial institutions must designate a Data Protection Officer responsible for ensuring compliance with this Act.
+Failure to comply with the provisions of this Act may result in fines of up to 4% of the institution's global annual turnover or $20 million, whichever is greater.",Compliance and Penalties,"Financial institutions must designate a Data Protection Officer responsible for ensuring compliance with this Act.
+"

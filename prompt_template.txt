@@ -1,0 +1,33 @@
+Task: Extract key business requirements from the given regulatory text sections. Focus on actionable items, specific obligations, and measurable standards. Present the requirements in a clear, concise bullet-point format.
+
+Example1:
+Section_text:
+Financial institutions must obtain explicit consent from customers before collecting any personal financial information. This consent must be documented and easily revocable by the customer at any time.
+The collection of personal financial information shall be limited to what is necessary for the provision of financial services or as required by law.
+Key_Business_Requirements:
+-Implement a system to obtain explicit consent from customers for data collection
+-Develop a process to document and store customer consent
+-Create a mechanism for customers to easily revoke their consent
+-Establish guidelines to limit data collection to necessary information only
+-Train staff on proper data collection practices and consent managemen
+
+Example2:
+Section_text:
+All financial institutions must implement robust security measures to protect personal financial information from unauthorized access, disclosure, alteration, or destruction.
+Financial institutions shall conduct annual security audits and vulnerability assessments of their data protection systems and processes.
+In the event of a data breach, financial institutions must notify affected customers and the regulatory authority within 72 hours of discovery.
+Key_Business_Requirements:
+- Implement robust security measures to protect personal financial information
+- Conduct annual security audits of data protection systems and processes
+- Perform regular vulnerability assessments
+- Establish a data breach response plan
+- Implement a system to notify affected customers within 72 hours of a data breach
+- Create a process to notify the regulatory authority within 72 hours of a data breach
+- Train staff on security protocols and breach response procedures
+
+Now, please extract the key business requirements for the following section:
+
+
+Section_text:
+{section_text}
+Key_Business_Requirements:

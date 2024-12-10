@@ -1,0 +1,33 @@
+Financial Services Data Protection Act
+
+Purpose and Scope:
+
+1. The purpose of this Act is to establish comprehensive data protection standards for financial institutions operating within the jurisdiction.
+2. This Act applies to all financial institutions, including banks, credit unions, insurance companies, and investment firms that collect, process, store, or transmit personal financial information of customers.
+
+Data Collection and Consent:
+
+1. Financial institutions must obtain explicit consent from customers before collecting any personal financial information. This consent must be documented and easily revocable by the customer at any time.
+2. The collection of personal financial information shall be limited to what is necessary for the provision of financial services or as required by law.
+
+
+Data Security Measures:
+
+1. All financial institutions must implement robust security measures to protect personal financial information from unauthorized access, disclosure, alteration, or destruction.
+2. Financial institutions shall conduct annual security audits and vulnerability assessments of their data protection systems and processes.
+3. In the event of a data breach, financial institutions must notify affected customers and the regulatory authority within 72 hours of discovery.
+
+Data Retention and Disposal:
+
+1. Personal financial information shall be retained only for as long as necessary to fulfill the purpose for which it was collected or as required by law.
+2. Financial institutions must implement secure data disposal methods to ensure that personal financial information is permanently and irretrievably deleted when no longer needed.
+
+Customer Rights and Access:
+
+1. Customers have the right to access their personal financial information held by financial institutions and request corrections to any inaccuracies.
+2. Financial institutions must provide customers with a clear and accessible process for exercising their rights under this Act.
+
+Compliance and Penalties:
+
+1. Financial institutions must designate a Data Protection Officer responsible for ensuring compliance with this Act.
+2. Failure to comply with the provisions of this Act may result in fines of up to 4% of the institution's global annual turnover or $20 million, whichever is greater.
