@@ -8,7 +8,7 @@ This project processes a regulations document, extracts sections, generates summ
 1. [Instructions](#instructions)
 2. [Assumptions and Design Decisions](#assumptions-and-design-decisions)
 3. [Simulated LLM Integration](#simulated-llm-integration)
-4. [Demonstration of Prompt Usage for LLM Integration](#Demonstration of Prompt Usage for LLM Integration)
+4. [Demonstration of Prompt Usage for LLM Integration](#Demonstration-of-Prompt-Usage-for-LLM-Integration)
 
 ---
 
