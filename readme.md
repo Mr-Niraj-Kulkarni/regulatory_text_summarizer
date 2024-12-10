@@ -46,13 +46,13 @@ The regulations file is structured with sections and headings, where:
 #### 2. Modular Design:
 - Encapsulates functionality in classes for text processing and LLM simulation.
 ### 3. Output Format:
-- Results are saved as a CSV with columns for original text, section headings, and summarized requirements
-    1. file_path	
-    2. file_title	
-    3. section_number	
-    4. original_text	
-    5. section_heading	
-    6. summarized_requirements
+- Results are saved as a CSV with columns as provided below:
+    1. file_path : path to the regulations file	
+    2. file_title	: title extracted from the regulations file
+    3. section_number : number of the section 	
+    4. original_text	 : the section text that was extracted used for generating summaries
+    5. section_heading	: heading of the section from which text was extracted
+    6. summarized_requirements : summary of the requirements for each section
 
 ## Simulated LLM Integration
 
